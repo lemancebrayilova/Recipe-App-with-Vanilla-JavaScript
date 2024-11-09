@@ -345,6 +345,15 @@ main { flex-grow: 1; }
   'opsz' 24;
 }
 
+.section { margin-block-end: var(--section-gap); }
+
+.container {
+  max-width: 1130px;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
 
 /*-----------------------------------*\
   #COMPONENTS
@@ -628,6 +637,7 @@ main { flex-grow: 1; }
   z-index: 1;
 }
 
+.tab-panel[hidden] { display: none; }
 
 
 /*-----------------------------------*\
