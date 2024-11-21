@@ -7,6 +7,13 @@
 "use strict";
 
 /**
+ * Import
+ */
+
+import { fetchData } from "./api.js";
+import { $skeletonCard, cardQueries } from "./global.js";
+
+/**
  * Home page Search
  */
 
